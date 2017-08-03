@@ -5,7 +5,7 @@
 
 Name:           %{?scl_prefix}jakarta-commons-httpclient
 Version:        3.1
-Release:        26.1%{?dist}
+Release:        26.2%{?dist}
 Summary: Jakarta Commons HTTPClient implements the client side of HTTP standards
 License:        ASL 2.0 and (ASL 2.0 or LGPLv2+)
 URL:            http://jakarta.apache.org/commons/httpclient/
@@ -142,6 +142,9 @@ ln -s %{_javadocdir}/%{pkg_name} dist/docs/apidocs
 %doc dist/docs/*
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1:3.1-26.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1:3.1-26.1
 - Automated package import and SCL-ization
 
